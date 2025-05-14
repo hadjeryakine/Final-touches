@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="container">
+        <img src="purepng.com-winnie-pooh-tiggerwinnie-poohwinniepoohpooh-bearbearwinnie-the-poohteddy-bearcharacterbook-winnie-the-pooh-1926pooh-corner-1928-1701528660159hqvha.png" alt="Telephone" class="phone-image">
+        <div class="form-container">
+            <h1>Contact Us</h1>
+            <form id="contact-form" action="new.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Next <span>&rarr;</span></button>
+            </form>
+            <div id="form-message" style="display:none; margin-top:10px; font-weight:bold;"></div>
+        </div>
+    </div>
+    <script src="new.js"></script>
+</body>
+</html>
